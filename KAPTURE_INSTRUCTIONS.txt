@@ -1,0 +1,468 @@
+═══════════════════════════════════════════════════════════════════════════
+MCF APP SCREENSHOT CAPTURE INSTRUCTIONS
+For use with Claude Desktop + Kapture MCP Tool
+═══════════════════════════════════════════════════════════════════════════
+
+PROJECT: FSA ID Interactive Creation Guide
+GENERATED: November 6, 2025
+TOTAL SCREENSHOTS: 6
+OUTPUT FOLDER: ./screenshots/
+DEVELOPMENT URL: http://localhost:5173
+
+INSTRUCTIONS:
+1. Ensure the app is running (`npm run dev` at http://localhost:5173)
+2. Open Claude Desktop application
+3. Copy each screenshot block below (one at a time)
+4. Paste into Claude Desktop
+5. Claude will automatically use Kapture to capture
+6. Verify screenshot saved in ./screenshots/ folder
+7. Repeat for next screenshot
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #1: Hero Landing Page - Overview Tab
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after page load
+Output filename: hero-overview-tab.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open the URL in your browser (Chrome recommended)
+2. Ensure window/viewport is exactly 1920x1080 pixels
+3. Wait for all content to load completely (fonts, images, animations)
+4. Ensure light mode theme is active
+5. Make sure "Overview" tab is active (should be default)
+6. Scroll to top of page (if needed)
+7. Use Kapture to capture the full viewport
+8. Verify the output file: ./screenshots/hero-overview-tab.png
+
+CONTENT TO SHOW:
+- MCF header with owl logo and "MY COLLEGE FINANCE" branding
+- "EDUCATE • MOTIVATE • ELEVATE" tagline
+- Theme toggle button (moon/sun icon) in header
+- Hero title: "FSA ID Creation Guide"
+- Hero subtitle describing the guide
+- Four tab navigation buttons (📋 Overview, ✅ Creation Checklist, 🔧 Troubleshooting, 🔒 Security Tips)
+- Overview tab content visible:
+  - "What is an FSA ID?" section
+  - "Who Needs an FSA ID?" cards (Students, Parents, Spouses)
+  - Beginning of "Common FSA ID Creation Errors" section
+- Three action buttons at bottom: Download Full Guide, Download Checklist, Download Template
+- No scrollbars visible
+
+QUALITY CHECKS:
+- All text is sharp and readable
+- MCF brand colors are accurate (blue #012699, green #26e011, amber #fdc003)
+- No loading spinners or placeholders
+- UI is fully rendered (no layout shifts)
+- No browser chrome visible (just content)
+- Overview tab has blue active state
+
+ALT TEXT (for README):
+"FSA ID Interactive Creation Guide landing page showing MCF branding, four-tab navigation,
+and overview content explaining what an FSA ID is and who needs one"
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #2: Interactive Checklist with Progress Bar
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after clicking tab
+Output filename: checklist-with-progress.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open http://localhost:5173 in your browser
+2. Click on the "✅ Creation Checklist" tab
+3. Check the first 3 items in the checklist (click checkboxes)
+4. Wait 1 second for progress bar animation to complete
+5. Ensure progress bar shows approximately 37% (3 of 8 completed)
+6. Scroll to show progress bar and first 5-6 checklist items
+7. Use Kapture to capture the viewport
+8. Verify the output file: ./screenshots/checklist-with-progress.png
+
+CONTENT TO SHOW:
+- Header with MCF branding
+- Tab navigation with "Creation Checklist" tab active (blue)
+- Checklist section header: "📝 FSA ID Creation Checklist"
+- Progress bar showing 37% completion (green fill)
+- Progress text: "3 of 8 completed"
+- First 3 checklist items checked (green background, green checkmark)
+  1. Gather Required Information ✅
+  2. Choose a Strong Username ✅
+  3. Create a Secure Password ✅
+- Next 3-4 items unchecked (gray background)
+  4. Verify Email Address
+  5. Set Up Challenge Questions
+  6. Review Personal Information
+- Checklist items showing title and description text
+- Action buttons at bottom (partially visible)
+
+SAMPLE DATA:
+- Items 1, 2, and 3 should be checked
+- Progress bar should be ~37% filled with brand-green color
+- Checked items have green background (#26e011 with 10% opacity)
+
+QUALITY CHECKS:
+- Progress bar animation has completed (smooth green bar)
+- Checked items are visually distinct from unchecked
+- Green color (#26e011) is accurate on progress bar and checked items
+- Text is readable on all items
+- Checkboxes are properly styled
+
+ALT TEXT (for README):
+"Interactive checklist showing 3 of 8 steps completed with animated progress bar
+and visually distinct checked items in brand green"
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #3: Troubleshooting Flowchart - Solution State
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after clicking option
+Output filename: troubleshooting-flowchart.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open http://localhost:5173 in your browser
+2. Click on the "🔧 Troubleshooting" tab
+3. Click on "Cannot create account" button
+4. Wait for navigation to solution step
+5. Scroll to show the solution content clearly
+6. Use Kapture to capture the viewport
+7. Verify the output file: ./screenshots/troubleshooting-flowchart.png
+
+CONTENT TO SHOW:
+- Header with MCF branding
+- Tab navigation with "Troubleshooting" tab active (blue)
+- Section header: "🔧 FSA ID Troubleshooting Flowchart"
+- Description text about using the flowchart
+- Solution box with green background (#26e011 with 10% opacity)
+- Solution title: "Account Creation Issues"
+- Description: "Common problems when creating an FSA ID:"
+- "💡 Solutions:" heading
+- 5 bulleted solutions with green bullet points:
+  • Ensure your name matches your Social Security card exactly
+  • Use a unique email address (not already used for another FSA ID)
+  • Enter SSN without dashes or spaces (123456789)
+  • Choose a strong password with at least 8 characters
+  • Wait 24 hours if you recently created an account
+- "Start Over" button with rotate icon
+- "📚 FAFSA Troubleshooting Resources" section below
+- Resource cards linking to Federal Student Aid and Edvisors
+
+QUALITY CHECKS:
+- Green solution box is clearly visible
+- Brand green color (#26e011) used correctly
+- All 5 solutions are readable
+- "Start Over" button is visible
+- External resource links are shown
+
+ALT TEXT (for README):
+"Troubleshooting flowchart showing solution state with five actionable solutions
+for FSA ID account creation issues, styled with MCF brand green"
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #4: Security Best Practices - Card Grid
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after tab click
+Output filename: security-best-practices.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open http://localhost:5173 in your browser
+2. Click on the "🔒 Security Tips" tab
+3. Wait for content to load
+4. Scroll to show all 6 security tip cards in 3-column grid
+5. Use Kapture to capture the viewport showing the cards
+6. Verify the output file: ./screenshots/security-best-practices.png
+
+CONTENT TO SHOW:
+- Header with MCF branding
+- Tab navigation with "Security Tips" tab active (blue)
+- Section header: "🔒 FSA ID Security Best Practices"
+- Description text about protecting FSA ID
+- 3-column grid of 6 security tip cards:
+  Row 1:
+    🔐 Strong Password
+    📧 Secure Email
+    🔒 Two-Factor Authentication
+  Row 2:
+    ❓ Challenge Questions
+    🚫 Never Share Credentials
+    🔄 Regular Updates
+- Each card showing:
+  - Large emoji icon (4xl size)
+  - Bold title
+  - Description text
+- Cards have gray background with border
+- Below: "🛡️ Why Security Matters" section beginning
+
+QUALITY CHECKS:
+- All 6 cards visible in proper 3-column grid layout
+- Emojis are large and clear
+- Text is readable on all cards
+- Cards have consistent sizing and spacing
+- Grid layout is clean (not overlapping)
+
+ALT TEXT (for README):
+"Six security best practice cards in 3-column grid layout, each with emoji icon,
+title, and description covering password strength, email security, and credential protection"
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #5: Mobile Responsive View - Checklist
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 375 x 812 (iPhone 12/13)
+Wait: 2 seconds after page load
+Output filename: mobile-responsive.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open Chrome DevTools (F12 or Cmd+Opt+I)
+2. Enable Device Toolbar (Cmd+Shift+M or Ctrl+Shift+M)
+3. Select device: iPhone 12 Pro (375 x 812)
+4. Navigate to http://localhost:5173
+5. Click on "Creation Checklist" tab (may need to scroll tabs horizontally)
+6. Scroll to show progress bar and first few checklist items
+7. Check 2-3 items to show progress
+8. Wait for all mobile-optimized content to load
+9. Use Kapture to capture the mobile viewport
+10. Verify the output file: ./screenshots/mobile-responsive.png
+
+CONTENT TO SHOW:
+- Mobile-optimized header:
+  - Smaller owl logo (50px)
+  - "MY COLLEGE FINANCE" text
+  - Smaller tagline text
+  - Theme toggle button
+- Tab navigation (horizontal scroll if needed)
+- "Creation Checklist" tab active
+- Hero title: "FSA ID Creation Guide" (smaller text size)
+- Hero subtitle (responsive text)
+- Checklist section:
+  - Progress bar (full width)
+  - Progress text
+  - Checklist items stacked vertically
+  - Large touch-friendly checkboxes (20px)
+- Action buttons stacked vertically (full width)
+- Single-column layout throughout
+
+NOTES:
+- Capture device frame if Kapture supports it
+- Otherwise, capture just the viewport content
+- Show touch-optimized UI (44px minimum button heights)
+- Demonstrate mobile-specific layout (single column)
+
+QUALITY CHECKS:
+- Layout is properly stacked (no horizontal scroll except tabs)
+- Text is readable at mobile size (16px minimum body text)
+- Buttons are adequately sized for touch (44px+ height)
+- No desktop-only elements visible
+- Tab navigation is accessible (may scroll horizontally)
+- Checkboxes are large enough for touch interaction
+
+ALT TEXT (for README):
+"Mobile responsive layout at 375px width showing single-column checklist with
+touch-optimized checkboxes, progress bar, and stacked action buttons"
+
+═══════════════════════════════════════════════════════════════════════════
+SCREENSHOT #6: Dark Mode - Overview Tab
+═══════════════════════════════════════════════════════════════════════════
+
+Use Kapture to capture a screenshot with these exact settings:
+
+URL: http://localhost:5173
+Viewport: 1920 x 1080 (desktop)
+Wait: 2 seconds after theme toggle
+Output filename: dark-mode.png
+Save location: ./screenshots/
+
+CAPTURE INSTRUCTIONS:
+1. Open http://localhost:5173 in your browser
+2. Locate the theme toggle button in header (moon icon)
+3. Click to switch to dark mode
+4. Wait for theme transition to complete (smooth animation)
+5. Verify all colors have switched to dark variants
+6. Ensure "Overview" tab is active
+7. Scroll to show header and first section of overview content
+8. Use Kapture to capture the full viewport
+9. Verify the output file: ./screenshots/dark-mode.png
+
+CONTENT TO SHOW:
+- Same view as Screenshot #1 but in dark mode
+- Dark background (very dark blue-gray: hsl(240, 10%, 3.9%))
+- Light text (near-white: hsl(0, 0%, 98%))
+- MCF header with:
+  - Owl logo (same colors)
+  - "MY COLLEGE FINANCE" in brand blue (lighter variant for dark mode)
+  - Tagline in light gray
+  - Sun icon for theme toggle (indicating light mode available)
+- Hero title in gradient (brand blue to primary)
+- Tab navigation with blue active state (lighter blue)
+- Overview tab content:
+  - "What is an FSA ID?" section with dark card backgrounds
+  - "Who Needs an FSA ID?" cards with dark backgrounds
+  - Common errors section with red/destructive tint on dark
+- Action buttons with adjusted colors for dark mode
+- MCF footer with dark background
+
+COLOR VERIFICATION:
+- Background: Very dark (hsl(240, 10%, 3.9%))
+- Text: Light/white (hsl(0, 0%, 98%))
+- Primary (buttons): Lighter blue (hsl(218, 100%, 65%)) not original #012699
+- Cards: Dark gray backgrounds (hsl(240, 10%, 8%))
+- Borders: Dark gray (hsl(240, 3.7%, 15.9%))
+- Brand colors remain visible but work on dark background
+
+QUALITY CHECKS:
+- No light mode elements visible
+- All text is readable (sufficient contrast on dark backgrounds)
+- Brand colors are dark mode variants (lighter blue for primary)
+- No jarring color combinations
+- Smooth transitions complete (no flicker)
+- Contrast ratios still meet WCAG AA standards (7:1+ for body text)
+
+ALT TEXT (for README):
+"Dark theme displaying MCF brand colors optimized for low-light viewing with
+high contrast, lighter blue primary color, and dark card backgrounds"
+
+═══════════════════════════════════════════════════════════════════════════
+END OF SCREENSHOT INSTRUCTIONS
+═══════════════════════════════════════════════════════════════════════════
+
+NEXT STEPS AFTER CAPTURING:
+
+1. Verify all 6 screenshots are saved in ./screenshots/
+2. Check each image for quality and clarity
+3. Confirm filenames match exactly as specified:
+   - hero-overview-tab.png
+   - checklist-with-progress.png
+   - troubleshooting-flowchart.png
+   - security-best-practices.png
+   - mobile-responsive.png
+   - dark-mode.png
+4. README.md is ready with placeholders for these images
+5. Optionally add screenshot image references to README
+6. Commit both README.md and ./screenshots/ folder to git
+
+TROUBLESHOOTING:
+
+Issue: Kapture not responding
+Solution: Ensure Kapture MCP tool is properly connected to Claude Desktop
+         Check Claude Desktop settings and MCP server status
+
+Issue: Wrong resolution
+Solution: Use browser DevTools to set exact viewport size before capture
+         For desktop: Window should be 1920x1080
+         For mobile: Use Device Toolbar with iPhone 12 Pro preset
+
+Issue: Content not loaded
+Solution: Increase wait time from 2 to 3-4 seconds
+         Manually wait longer before capture
+         Check browser console for loading errors
+
+Issue: File not saving
+Solution: Verify ./screenshots/ folder exists in project root
+         Check file permissions on the directory
+         Ensure Claude Desktop has write access to project folder
+
+Issue: Colors don't match
+Solution: Ensure browser zoom is at 100%
+         Disable any color adjustment browser extensions
+         Use Chrome for most accurate color rendering
+
+Issue: Theme doesn't toggle
+Solution: Clear localStorage and refresh page
+         Click theme toggle button (moon/sun icon) in header
+         Wait for CSS transition to complete (~150-300ms)
+
+Issue: Progress bar not showing correct percentage
+Solution: Clear localStorage (localStorage.clear())
+         Refresh page
+         Check exact number of items by counting clicks
+
+═══════════════════════════════════════════════════════════════════════════
+
+OPTIONAL: Adding Screenshots to README
+
+If you want to embed the screenshots directly in README.md, add these markdown lines
+in appropriate sections:
+
+In Overview section (after "Try it out" link):
+```markdown
+### Application Preview
+
+![FSA ID Guide Overview](./screenshots/hero-overview-tab.png)
+*The FSA ID Interactive Creation Guide showing the Overview tab with MCF branding and key information*
+```
+
+In Features Breakdown > Interactive Checklist section:
+```markdown
+![Interactive Checklist](./screenshots/checklist-with-progress.png)
+*Progress tracking with visual feedback: 3 of 8 steps completed*
+```
+
+In Features Breakdown > Troubleshooting Flowchart section:
+```markdown
+![Troubleshooting Flowchart](./screenshots/troubleshooting-flowchart.png)
+*Solution step showing actionable advice for account creation issues*
+```
+
+In Features Breakdown > Security Best Practices section:
+```markdown
+![Security Tips Grid](./screenshots/security-best-practices.png)
+*Six essential security practices in a scannable 3-column card layout*
+```
+
+In Responsive Design section:
+```markdown
+### Mobile Experience
+
+![Mobile Responsive View](./screenshots/mobile-responsive.png)
+*Touch-optimized interface at 375px width with single-column layout*
+```
+
+In Customization > Dark Mode Implementation section:
+```markdown
+![Dark Mode](./screenshots/dark-mode.png)
+*Dark theme with optimized contrast and MCF brand colors for low-light viewing*
+```
+
+═══════════════════════════════════════════════════════════════════════════
+
+For questions or issues, refer to:
+- MCF Branding Guide: ../.instructions/BRANDING_GUIDE.md
+- README Template: ../.instructions/templates/README-GitHub-Template.md
+- Claude Desktop + Kapture documentation
+- MCF Claude.md: ../CLAUDE.md
+
+═══════════════════════════════════════════════════════════════════════════
+
+PROJECT DETAILS:
+- App Name: FSA ID Interactive Creation Guide
+- Tech Stack: React 19, TypeScript 5.9, Vite 7.1, Tailwind CSS 4.1
+- Features: Interactive checklist, troubleshooting flowchart, PDF export, dark mode
+- Brand Colors: Blue #012699, Green #26e011, Amber #fdc003, Black #000516
+- Responsive: 375px (mobile), 768px (tablet), 1024px+ (desktop)
+- Accessibility: WCAG 2.1 AA compliant, keyboard navigation, screen reader support
+
+═══════════════════════════════════════════════════════════════════════════

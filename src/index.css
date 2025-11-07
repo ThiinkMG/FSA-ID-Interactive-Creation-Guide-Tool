@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #012699;
+  --color-brand-green: #26e011;
+  --color-brand-amber: #fdc003;
+  --color-brand-black: #000516;
+}
+
+:root {
+  /* MCF Brand Colors - Primary Palette */
+  --color-brand-blue: #012699;
+  --color-brand-green: #26e011;
+  --color-brand-amber: #fdc003;
+  --color-brand-black: #000516;
+
+  /* Base Theme Colors for Light Mode */
+  --color-background: #ffffff;
+  --color-foreground: #0a0a0a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0a0a0a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0a0a0a;
+
+  /* Primary uses MCF Brand Blue */
+  --color-primary: #012699;
+  --color-primary-foreground: #ffffff;
+
+  /* Secondary and UI colors - Improved contrast for WCAG AA */
+  --color-secondary: #f5f5f5;
+  --color-secondary-foreground: #0a0a0a;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #475569; /* Darker for better contrast (was #737373) */
+  --color-accent: #f5f5f5;
+  --color-accent-foreground: #0a0a0a;
+
+  /* Success uses MCF Brand Green */
+  --color-success: #26e011;
+  --color-success-foreground: #000516;
+
+  /* Warning uses MCF Brand Amber */
+  --color-warning: #fdc003;
+  --color-warning-foreground: #000516;
+
+  /* Destructive (errors) */
+  --color-destructive: #dc2626; /* Slightly darker for better contrast */
+  --color-destructive-foreground: #ffffff;
+
+  /* Border and input colors */
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #012699;
+
+  /* Border radius */
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+}
+
+.dark {
+  /* Dark mode base colors - Improved contrast */
+  --color-background: #09090b;
+  --color-foreground: #f8fafc;
+  --color-card: #1a1a1f;
+  --color-card-foreground: #f8fafc;
+  --color-popover: #1a1a1f;
+  --color-popover-foreground: #f8fafc;
+
+  /* Primary uses lighter blue for dark mode (better contrast) */
+  --color-primary: #3b82f6;
+  --color-primary-foreground: #ffffff;
+
+  /* Secondary and UI colors for dark mode - Better contrast */
+  --color-secondary: #27272a;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #27272a;
+  --color-muted-foreground: #94a3b8; /* Lighter for better contrast (was #a3a3a3) */
+  --color-accent: #27272a;
+  --color-accent-foreground: #f8fafc;
+
+  /* Success (Brand Green - brighter for dark mode visibility) */
+  --color-success: #3ae826;
+  --color-success-foreground: #000516;
+
+  /* Warning (Brand Amber - brighter for dark mode) */
+  --color-warning: #fdc922;
+  --color-warning-foreground: #000516;
+
+  /* Destructive for dark mode */
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+
+  /* Border and input colors for dark mode - Better visibility */
+  --color-border: #374151;
+  --color-input: #27272a;
+  --color-ring: #3b82f6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

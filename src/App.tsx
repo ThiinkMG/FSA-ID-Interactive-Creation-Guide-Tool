@@ -113,7 +113,6 @@ function App() {
       doc.setFontSize(10);
       doc.setTextColor(0, 0, 0);
       yPos = 45;
-      const maxWidth = 170;
 
       doc.text("An FSA ID is a username and password that gives you access to Federal", 20, yPos);
       yPos += 7;
@@ -142,27 +141,27 @@ function App() {
       doc.setTextColor(0, 0, 0);
       yPos = 50;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Students:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 8;
       doc.setFontSize(10);
       doc.text("All students applying for federal financial aid must have their own FSA ID.", 25, yPos);
       yPos += 15;
 
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Parents:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 8;
       doc.setFontSize(10);
       doc.text("Parents of dependent students need their own FSA ID to sign the FAFSA.", 25, yPos);
       yPos += 15;
 
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Spouses:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 8;
       doc.setFontSize(10);
       doc.text("Married students may need their spouse's FSA ID for certain applications.", 25, yPos);
@@ -187,9 +186,9 @@ function App() {
       ];
 
       requirements.forEach(req => {
-        doc.setFont(undefined, 'bold');
+        doc.setFont("helvetica", 'bold');
         doc.text(`• ${req.title}`, 20, yPos);
-        doc.setFont(undefined, 'normal');
+        doc.setFont("helvetica", 'normal');
         yPos += 7;
         doc.text(req.desc, 25, yPos);
         yPos += 12;
@@ -216,10 +215,10 @@ function App() {
       ];
 
       steps.forEach(step => {
-        doc.setFont(undefined, 'bold');
+        doc.setFont("helvetica", 'bold');
         doc.setFontSize(11);
         doc.text(`Step ${step.num}: ${step.title}`, 20, yPos);
-        doc.setFont(undefined, 'normal');
+        doc.setFont("helvetica", 'normal');
         doc.setFontSize(10);
         yPos += 7;
         doc.text(step.desc, 25, yPos);
@@ -255,9 +254,9 @@ function App() {
       doc.setFillColor(255, 220, 100);
       doc.rect(15, yPos - 5, 180, 25, 'F');
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("⚠ Warning:", 20, yPos + 5);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(10);
       doc.text("Federal Student Aid will NEVER ask for your password. If someone", 20, yPos + 12);
       doc.text("requests this information, it's likely a scam.", 20, yPos + 19);
@@ -281,9 +280,9 @@ function App() {
       ];
 
       troubleshooting.forEach(item => {
-        doc.setFont(undefined, 'bold');
+        doc.setFont("helvetica", 'bold');
         doc.text(`Problem: ${item.issue}`, 20, yPos);
-        doc.setFont(undefined, 'normal');
+        doc.setFont("helvetica", 'normal');
         yPos += 7;
         doc.text(`Solution: ${item.solution}`, 25, yPos);
         yPos += 12;
@@ -291,9 +290,9 @@ function App() {
 
       yPos += 10;
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Need Help?", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(10);
       yPos += 8;
       doc.text("Call Federal Student Aid: 1-800-4-FED-AID (1-800-433-3243)", 20, yPos);
@@ -352,17 +351,17 @@ function App() {
       doc.setFillColor(240, 248, 255);
       doc.rect(15, yPos, 180, 15, 'F');
       doc.setFontSize(10);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Instructions: Check off each box as you complete the step", 20, yPos + 10);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
 
       // Pre-Application Checklist
       yPos = 140;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("BEFORE YOU START", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 10;
 
       const preChecklist = [
@@ -388,9 +387,9 @@ function App() {
       yPos += 5;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("ACCOUNT CREATION STEPS", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 10;
 
       const mainChecklist = [
@@ -410,9 +409,9 @@ function App() {
       doc.setTextColor(0, 0, 0);
       mainChecklist.forEach((item) => {
         doc.text("[ ]", 20, yPos);
-        doc.setFont(undefined, 'bold');
+        doc.setFont("helvetica", 'bold');
         doc.text(`${item.num}.`, 30, yPos);
-        doc.setFont(undefined, 'normal');
+        doc.setFont("helvetica", 'normal');
         doc.text(item.item, 37, yPos);
         yPos += 9;
       });
@@ -424,9 +423,9 @@ function App() {
       yPos = 30;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("SECURITY REMINDERS", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 10;
 
       const securityChecklist = [
@@ -449,9 +448,9 @@ function App() {
       yPos += 10;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("NOTES & IMPORTANT DATES", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 10;
 
       doc.setFontSize(10);
@@ -488,9 +487,9 @@ function App() {
       doc.setFillColor(255, 250, 200);
       doc.rect(15, yPos, 180, 25, 'F');
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Need Help?", 20, yPos + 8);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("Federal Student Aid: 1-800-4-FED-AID (1-800-433-3243)", 20, yPos + 15);
       doc.text("Website: https://studentaid.gov/help", 20, yPos + 21);
@@ -514,9 +513,9 @@ function App() {
       doc.rect(15, yPos, 180, 20, 'FD');
       doc.setFontSize(10);
       doc.setTextColor(220, 53, 69);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("SECURITY WARNING:", 20, yPos + 8);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.setTextColor(0, 0, 0);
       doc.text("Keep this document secure. Do not share your password or SSN with anyone.", 20, yPos + 15);
@@ -525,9 +524,9 @@ function App() {
       yPos = 110;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("1. PERSONAL INFORMATION", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.setTextColor(100, 100, 100);
       doc.text("(This information must match your official documents)", 20, yPos + 7);
@@ -536,9 +535,9 @@ function App() {
       doc.setFontSize(10);
       doc.setTextColor(0, 0, 0);
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Full Legal Name:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(As it appears on your Social Security card)", 55, yPos);
       yPos += 5;
@@ -546,9 +545,9 @@ function App() {
       doc.text("First: _____________________  Middle: __________  Last: _____________________", 20, yPos);
       yPos += 12;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Social Security Number:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(Enter without dashes)", 70, yPos);
       yPos += 5;
@@ -556,9 +555,9 @@ function App() {
       doc.text("___  ___  ___  -  ___  ___ - ___  ___  ___  ___", 20, yPos);
       yPos += 12;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Date of Birth:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(MM/DD/YYYY)", 50, yPos);
       yPos += 5;
@@ -566,9 +565,9 @@ function App() {
       doc.text("___  ___ / ___  ___ / ___  ___  ___  ___", 20, yPos);
       yPos += 12;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Email Address:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(Use an email you check regularly)", 52, yPos);
       yPos += 5;
@@ -576,16 +575,16 @@ function App() {
       doc.text("_________________________________________________________", 20, yPos);
       yPos += 12;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Phone Number:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 5;
       doc.text("(___) ___ - ____", 20, yPos);
       yPos += 12;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Mailing Address:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 5;
       doc.text("Street: _____________________________________________________", 20, yPos);
       yPos += 7;
@@ -597,9 +596,9 @@ function App() {
       yPos = 30;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("2. FSA ID CREDENTIALS", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.setTextColor(100, 100, 100);
       doc.text("(Create strong, unique credentials for your FSA ID)", 20, yPos + 7);
@@ -608,9 +607,9 @@ function App() {
       doc.setFontSize(10);
       doc.setTextColor(0, 0, 0);
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Username:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(Must be unique, NOT your email address)", 45, yPos);
       yPos += 5;
@@ -618,9 +617,9 @@ function App() {
       doc.text("_________________________________________________________", 20, yPos);
       yPos += 15;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Password:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("(8+ characters: uppercase, lowercase, numbers, symbols)", 45, yPos);
       yPos += 5;
@@ -638,9 +637,9 @@ function App() {
       // Challenge Questions
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("3. CHALLENGE QUESTIONS", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.setTextColor(100, 100, 100);
       doc.text("(Choose answers only YOU would know - for account recovery)", 20, yPos + 7);
@@ -650,9 +649,9 @@ function App() {
       doc.setTextColor(0, 0, 0);
 
       for (let i = 1; i <= 3; i++) {
-        doc.setFont(undefined, 'bold');
+        doc.setFont("helvetica", 'bold');
         doc.text(`Challenge Question ${i}:`, 20, yPos);
-        doc.setFont(undefined, 'normal');
+        doc.setFont("helvetica", 'normal');
         yPos += 5;
         doc.text("_________________________________________________________", 20, yPos);
         yPos += 10;
@@ -666,31 +665,31 @@ function App() {
       yPos = 30;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("4. ACCOUNT VERIFICATION", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
 
       yPos += 15;
       doc.setFontSize(10);
       doc.setTextColor(0, 0, 0);
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Date Account Created:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 5;
       doc.text("___  ___ / ___  ___ / ___  ___  ___  ___", 20, yPos);
       yPos += 15;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Email Verification Completed:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 5;
       doc.text("[ ] Yes    [ ] No    Date: ___________________", 20, yPos);
       yPos += 15;
 
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Test Login Successful:", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       yPos += 5;
       doc.text("[ ] Yes    [ ] No    Date: ___________________", 20, yPos);
       yPos += 25;
@@ -698,9 +697,9 @@ function App() {
       // Important Reminders
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("5. IMPORTANT REMINDERS", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
 
       yPos += 15;
       doc.setFontSize(10);
@@ -723,9 +722,9 @@ function App() {
       yPos += 10;
       doc.setFontSize(14);
       doc.setTextColor(1, 38, 153);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("ADDITIONAL NOTES", 20, yPos);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
 
       yPos += 15;
       doc.setFontSize(10);
@@ -741,9 +740,9 @@ function App() {
       doc.setFillColor(255, 250, 200);
       doc.rect(15, yPos, 180, 30, 'F');
       doc.setFontSize(11);
-      doc.setFont(undefined, 'bold');
+      doc.setFont("helvetica", 'bold');
       doc.text("Need Help Creating Your FSA ID?", 20, yPos + 10);
-      doc.setFont(undefined, 'normal');
+      doc.setFont("helvetica", 'normal');
       doc.setFontSize(9);
       doc.text("Phone: 1-800-4-FED-AID (1-800-433-3243)", 20, yPos + 17);
       doc.text("Website: https://studentaid.gov/fsa-id/create-account", 20, yPos + 23);

@@ -3,7 +3,7 @@ interface HeaderProps {
   onToggleDarkMode: () => void;
 }
 
-export function Header({ darkMode, onToggleDarkMode }: HeaderProps) {
+export function Header({ darkMode: _darkMode, onToggleDarkMode: _onToggleDarkMode }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 shadow-sm">
       <div className="container mx-auto flex h-16 sm:h-20 items-center justify-between px-4 sm:px-6">
